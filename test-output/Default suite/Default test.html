@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>15/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Jul 18 23:01:34 IST 2018</td>
+<td>Started on:</td><td>Thu Jul 19 23:08:25 IST 2018</td>
 </tr>
-<tr><td>Total time:</td><td>10 seconds (10140 ms)</td>
+<tr><td>Total time:</td><td>157 seconds (157221 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,158 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.mercury.qa.testcases.LoginPageTest.validateClickOnContactLinkTest()'><b>validateClickOnContactLinkTest</b><br>Test class: com.mercury.qa.testcases.LoginPageTest</td>
+<td><div><pre>java.lang.AssertionError: expected [Contact: Mercury Tours] but found [Under Construction: Mercury Tours]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.mercury.qa.testcases.LoginPageTest.validateClickOnContactLinkTest(LoginPageTest.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1874962678", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1874962678'><pre>java.lang.AssertionError: expected [Contact: Mercury Tours] but found [Under Construction: Mercury Tours]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.mercury.qa.testcases.LoginPageTest.validateClickOnContactLinkTest(LoginPageTest.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>com.mercury.qa.testcases.LoginPageTest@20398b7c</td></tr>
+<tr>
+<td title='com.mercury.qa.testcases.LoginPageTest.validateClickOnSupportLinkTest()'><b>validateClickOnSupportLinkTest</b><br>Test class: com.mercury.qa.testcases.LoginPageTest</td>
+<td><div><pre>java.lang.AssertionError: expected [Support: Mercury Tours] but found [Under Construction: Mercury Tours]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.mercury.qa.testcases.LoginPageTest.validateClickOnSupportLinkTest(LoginPageTest.java:168)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace846326826", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace846326826'><pre>java.lang.AssertionError: expected [Support: Mercury Tours] but found [Under Construction: Mercury Tours]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.mercury.qa.testcases.LoginPageTest.validateClickOnSupportLinkTest(LoginPageTest.java:168)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>com.mercury.qa.testcases.LoginPageTest@20398b7c</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,10 +227,80 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='com.mercury.qa.testcases.LoginPageTest.validateCarRentalsLinkPresentTest()'><b>validateCarRentalsLinkPresentTest</b><br>Test class: com.mercury.qa.testcases.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mercury.qa.testcases.LoginPageTest@20398b7c</td></tr>
+<tr>
+<td title='com.mercury.qa.testcases.LoginPageTest.validateClickOnRegisterLinkTest()'><b>validateClickOnRegisterLinkTest</b><br>Test class: com.mercury.qa.testcases.LoginPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.mercury.qa.testcases.LoginPageTest@20398b7c</td></tr>
+<tr>
+<td title='com.mercury.qa.testcases.LoginPageTest.validateClickOnSignInLinkTest()'><b>validateClickOnSignInLinkTest</b><br>Test class: com.mercury.qa.testcases.LoginPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.mercury.qa.testcases.LoginPageTest@20398b7c</td></tr>
+<tr>
+<td title='com.mercury.qa.testcases.LoginPageTest.validateContactLinkPresentTest()'><b>validateContactLinkPresentTest</b><br>Test class: com.mercury.qa.testcases.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mercury.qa.testcases.LoginPageTest@20398b7c</td></tr>
+<tr>
+<td title='com.mercury.qa.testcases.LoginPageTest.validateCruisesLinkPresentTest()'><b>validateCruisesLinkPresentTest</b><br>Test class: com.mercury.qa.testcases.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mercury.qa.testcases.LoginPageTest@20398b7c</td></tr>
+<tr>
+<td title='com.mercury.qa.testcases.LoginPageTest.validateDestinationsLinkPresentTest()'><b>validateDestinationsLinkPresentTest</b><br>Test class: com.mercury.qa.testcases.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mercury.qa.testcases.LoginPageTest@20398b7c</td></tr>
+<tr>
+<td title='com.mercury.qa.testcases.LoginPageTest.validateFlightsLinkPresentTest()'><b>validateFlightsLinkPresentTest</b><br>Test class: com.mercury.qa.testcases.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mercury.qa.testcases.LoginPageTest@20398b7c</td></tr>
+<tr>
+<td title='com.mercury.qa.testcases.LoginPageTest.validateHomeLinkPresentTest()'><b>validateHomeLinkPresentTest</b><br>Test class: com.mercury.qa.testcases.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mercury.qa.testcases.LoginPageTest@20398b7c</td></tr>
+<tr>
+<td title='com.mercury.qa.testcases.LoginPageTest.validateHotelsLinkPresentTest()'><b>validateHotelsLinkPresentTest</b><br>Test class: com.mercury.qa.testcases.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mercury.qa.testcases.LoginPageTest@20398b7c</td></tr>
+<tr>
+<td title='com.mercury.qa.testcases.LoginPageTest.validateLogoPresentTest()'><b>validateLogoPresentTest</b><br>Test class: com.mercury.qa.testcases.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mercury.qa.testcases.LoginPageTest@20398b7c</td></tr>
+<tr>
+<td title='com.mercury.qa.testcases.LoginPageTest.validateRegisterLinkPresentTest()'><b>validateRegisterLinkPresentTest</b><br>Test class: com.mercury.qa.testcases.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mercury.qa.testcases.LoginPageTest@20398b7c</td></tr>
+<tr>
+<td title='com.mercury.qa.testcases.LoginPageTest.validateSignInLinkPresentTest()'><b>validateSignInLinkPresentTest</b><br>Test class: com.mercury.qa.testcases.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mercury.qa.testcases.LoginPageTest@20398b7c</td></tr>
+<tr>
+<td title='com.mercury.qa.testcases.LoginPageTest.validateSupportLinkPresentTest()'><b>validateSupportLinkPresentTest</b><br>Test class: com.mercury.qa.testcases.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mercury.qa.testcases.LoginPageTest@20398b7c</td></tr>
+<tr>
 <td title='com.mercury.qa.testcases.LoginPageTest.validateTitleTest()'><b>validateTitleTest</b><br>Test class: com.mercury.qa.testcases.LoginPageTest</td>
 <td></td>
 <td>0</td>
-<td>com.mercury.qa.testcases.LoginPageTest@27efef64</td></tr>
+<td>com.mercury.qa.testcases.LoginPageTest@20398b7c</td></tr>
+<tr>
+<td title='com.mercury.qa.testcases.LoginPageTest.validateVacationsLinkPresentTest()'><b>validateVacationsLinkPresentTest</b><br>Test class: com.mercury.qa.testcases.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.mercury.qa.testcases.LoginPageTest@20398b7c</td></tr>
 </table><p>
 </body>
 </html>
