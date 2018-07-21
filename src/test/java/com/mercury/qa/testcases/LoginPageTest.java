@@ -39,7 +39,6 @@ public class LoginPageTest extends TestBase
 		loginPage = new LoginPage();
 	}
 	
-	
 	@Test(priority=1)
 	public void validateTitleTest()
 	{
@@ -182,6 +181,8 @@ public class LoginPageTest extends TestBase
 		log.info("******END******");
 	}
 	
+	//Add left side links test cases in future
+	
 	@Test(priority=18,dataProvider="invalidtestdata")
 	public void validateInvalidLoginTest(String USERNAME,String PASSWORD)
 	{
@@ -214,14 +215,11 @@ public class LoginPageTest extends TestBase
 		return TestUtil.getTestData("ValidLoginCredentials");
 	}
 	
-	//Add left side links test cases in future
-	
 	@AfterMethod
 	public void tearDown()
 	{
 		driver.quit();
 		log.info("Browser closed successfully");
-		
 	}
 	
 

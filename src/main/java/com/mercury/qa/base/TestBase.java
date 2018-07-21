@@ -11,35 +11,33 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 
 
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+
 import com.mercury.qa.util.TestUtil;
+import com.mercury.qa.util.WebEventListener;
 
-public class TestBase {
-
-	public static Properties prop;
-	public static WebDriver driver;
+public class TestBase 
+{
 	
-	Logger log = Logger.getLogger(TestBase.class);
+	private static Logger log = Logger.getLogger(TestBase.class);
+	private static Properties prop;
+	protected static WebDriver driver;
 	
-	public TestBase()
-	{
-		
-	}
-	
+	//for loading configuration file
 	public void loadConfigurationFile()
 	{
-		//for loading configuration file
-				try 
-				{
-					prop=new Properties();
-					FileInputStream ip = new FileInputStream("G:\\Mercury tours workspace\\MercuryTours\\src\\main\\java\\com\\mercury\\qa\\config\\config.properties");
-					log.info("Trying to Load Configuration file.....");
-					prop.load(ip);
-					log.info("Configuration file loaded successfully....");
-				} catch (Exception e) 
-				{
-					log.info("Failed to load configuration file");
-					e.printStackTrace();
-				}
+		try 
+		{
+			prop=new Properties();
+			FileInputStream ip = new FileInputStream("G:\\Mercury tours workspace\\MercuryTours\\src\\main\\java\\com\\mercury\\qa\\config\\config.properties");
+			log.info("Trying to Load Configuration file.....");
+			prop.load(ip);
+			log.info("Configuration file loaded successfully....");
+		} catch (Exception e) 
+		{
+			log.info("Failed to load configuration file");
+			e.printStackTrace();
+		}
 				
 	}
 	
@@ -61,6 +59,12 @@ public class TestBase {
 			log.info("Chrome launched successfully");
 		}
 		
+		//for WebDriverEventListner to get activated
+		EventFiringWebDriver e_driver = new EventFiringWebDriver(driver);
+		WebEventListener webEventListener = new WebEventListener();
+		e_driver.register(webEventListener);
+		driver=e_driver;
+		
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
@@ -68,7 +72,5 @@ public class TestBase {
 		driver.get(prop.getProperty("url"));
 		log.info("URL launched successfully");
 	}
-	
-	
 
 }
