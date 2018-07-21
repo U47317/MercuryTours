@@ -4,18 +4,22 @@ import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.mercury.qa.base.TestBase;
 import com.mercury.qa.pages.ContactPage;
+import com.mercury.qa.pages.FlightFinderPage;
 import com.mercury.qa.pages.LoginPage;
 import com.mercury.qa.pages.RegisterPage;
 import com.mercury.qa.pages.SignOnPage;
 import com.mercury.qa.pages.SupportPage;
+import com.mercury.qa.util.TestUtil;
 
 public class LoginPageTest extends TestBase
 {
 	private LoginPage loginPage;
+	private FlightFinderPage flightFinderPage;
 	private SignOnPage signOnPage;
 	private RegisterPage registerPage;
 	private SupportPage supportPage;
@@ -40,7 +44,7 @@ public class LoginPageTest extends TestBase
 	public void validateTitleTest()
 	{
 		log.info("******Validate login page title*****");
-		String title = loginPage.validateLoginPageTitle();
+		String title = loginPage.validatePageTitle();
 		Assert.assertEquals(title, "Welcome: Mercury Tours");
 		log.info("******END******");
 		
@@ -176,6 +180,38 @@ public class LoginPageTest extends TestBase
 		contactPage=loginPage.validateClickOnContactLink();
 		Assert.assertEquals(contactPage.validateTitle(), "Contact: Mercury Tours");
 		log.info("******END******");
+	}
+	
+	@Test(priority=18,dataProvider="invalidtestdata")
+	public void validateInvalidLoginTest(String USERNAME,String PASSWORD)
+	{
+		log.info("******Validate invalid Login******");
+		log.info("Trying to Sign in with username: "+USERNAME+" and password: "+PASSWORD);
+		flightFinderPage=loginPage.validateLogin(USERNAME, PASSWORD);
+		Assert.assertEquals(flightFinderPage.validatePageTitle(), "Sign-on: Mercury Tours");
+		log.info("******END******");
+	}
+	
+	@DataProvider(name="invalidtestdata")
+	private Object[][] fetchInvalidTestData()
+	{
+		return TestUtil.getTestData("InvalidLoginCredentials");
+	}
+	
+	@Test(priority=19,dataProvider="validtestdata")
+	public void validateValidLoginTest(String USERNAME,String PASSWORD)
+	{
+		log.info("******Validate valid Login******");
+		log.info("Trying to Sign in with username: "+USERNAME+" and password: "+PASSWORD);
+		flightFinderPage=loginPage.validateLogin(USERNAME, PASSWORD);
+		Assert.assertEquals(flightFinderPage.validatePageTitle(), "Find a Flight: Mercury Tours:");
+		log.info("******END******");
+	}
+	
+	@DataProvider(name="validtestdata")
+	private Object[][] fetchValidTestData()
+	{
+		return TestUtil.getTestData("ValidLoginCredentials");
 	}
 	
 	//Add left side links test cases in future

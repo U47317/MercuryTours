@@ -44,13 +44,22 @@ public class LoginPage extends TestBase{
 	@FindBy(xpath="//img[@alt='Mercury Tours']")
 	WebElement logo;
 	
+	@FindBy(xpath="//input[@name='userName']")
+	WebElement userNameField;
+	
+	@FindBy(xpath="//input[@name='password']")
+	WebElement passwordField;
+	
+	@FindBy(xpath="//input[@name='login']")
+	WebElement loginButton;
+	
 	public LoginPage()
 	{
 		PageFactory.initElements(driver, this);
 	}
 	
 	
-	public String validateLoginPageTitle()
+	public String validatePageTitle()
 	{
 		return driver.getTitle();
 	}
@@ -137,6 +146,16 @@ public class LoginPage extends TestBase{
 	{
 		contactLink.click();
 		return new ContactPage();
+	}
+	
+	public FlightFinderPage validateLogin(String username,String password)
+	{
+		userNameField.sendKeys(username);
+		passwordField.sendKeys(password);
+		loginButton.click();
+		return new FlightFinderPage();
+		
+		
 	}
 	
 	//space for left side links 
