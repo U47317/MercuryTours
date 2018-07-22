@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.mercury.qa.testcases.LoginPageTest">
+      <class name="com.mercury.qa.testcases.SelectFlightTest">
         <methods>
-          <include name="tearDown"/>
+          <include name="teardown"/>
+          <include name="validateDepartFlightSelection"/>
           <include name="setup"/>
-          <include name="validateTitleTest"/>
         </methods>
-      </class> <!-- com.mercury.qa.testcases.LoginPageTest -->
+      </class> <!-- com.mercury.qa.testcases.SelectFlightTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

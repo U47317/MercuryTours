@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">22 methods, 3 failed,   19 passed</span>
+                    <span class="method-stats">23 methods, 2 failed,   21 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -108,11 +108,6 @@
                       <span>
                         <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Merury_Tours_Automation_Test_suite" title="com.mercury.qa.testcases.LoginPageTest" hash-for-method="validateClickOnSupportLinkTest">validateClickOnSupportLinkTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Merury_Tours_Automation_Test_suite" title="com.mercury.qa.testcases.LoginPageTest" hash-for-method="validateValidLoginTest(mercury, mercury)">validateValidLoginTest(mercury, mercury)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Merury_Tours_Automation_Test_suite -->
@@ -151,6 +146,11 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Merury_Tours_Automation_Test_suite" title="com.mercury.qa.testcases.SelectFlightTest" hash-for-method="validateDepartReturnFlightSelection">validateDepartReturnFlightSelection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Merury_Tours_Automation_Test_suite" title="com.mercury.qa.testcases.LoginPageTest" hash-for-method="validateDestinationsLinkPresentTest">validateDestinationsLinkPresentTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -176,12 +176,12 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Merury_Tours_Automation_Test_suite" title="com.mercury.qa.testcases.LoginPageTest" hash-for-method="validateInvalidLoginTest(Leena, Mathew)">validateInvalidLoginTest(Leena, Mathew)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Merury_Tours_Automation_Test_suite" title="com.mercury.qa.testcases.LoginPageTest" hash-for-method="validateInvalidLoginTest(Arun, Mammen)">validateInvalidLoginTest(Arun, Mammen)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Merury_Tours_Automation_Test_suite" title="com.mercury.qa.testcases.LoginPageTest" hash-for-method="validateInvalidLoginTest(Arun, Mammen)">validateInvalidLoginTest(Arun, Mammen)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Merury_Tours_Automation_Test_suite" title="com.mercury.qa.testcases.LoginPageTest" hash-for-method="validateInvalidLoginTest(Leena, Mathew)">validateInvalidLoginTest(Leena, Mathew)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -217,6 +217,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Merury_Tours_Automation_Test_suite" title="com.mercury.qa.testcases.LoginPageTest" hash-for-method="validateVacationsLinkPresentTest">validateVacationsLinkPresentTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Merury_Tours_Automation_Test_suite" title="com.mercury.qa.testcases.LoginPageTest" hash-for-method="validateValidLoginTest(mercury, mercury)">validateValidLoginTest(mercury, mercury)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Merury_Tours_Automation_Test_suite -->
@@ -256,42 +261,6 @@
                   <div class="stack-trace">java.lang.AssertionError: expected [Support: Mercury Tours] but found [Under Construction: Mercury Tours]
 	at com.mercury.qa.testcases.LoginPageTest.validateClickOnSupportLinkTest(LoginPageTest.java:172)
 ... Removed 31 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validateValidLoginTest(mercury, mercury)">
-                  </a> <!-- validateValidLoginTest(mercury, mercury) -->
-                  <span class="method-name">validateValidLoginTest</span>
-                  <span class="parameters">(mercury, mercury)</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: timeout
-  (Session info: chrome=67.0.3396.99)
-  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
-System info: host: &apos;DESKTOP-9NH6BU8&apos;, ip: &apos;192.168.43.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\arunm\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
-Session ID: af88b00528e14e119df978c1ee3a5ba1
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:403)
-	at com.sun.proxy.$Proxy13.click(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:416)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy12.click(Unknown Source)
-	at com.mercury.qa.pages.LoginPage.validateLogin(LoginPage.java:155)
-	at com.mercury.qa.testcases.LoginPageTest.validateValidLoginTest(LoginPageTest.java:208)
-... Removed 37 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -383,18 +352,18 @@ Session ID: af88b00528e14e119df978c1ee3a5ba1
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="validateInvalidLoginTest(Leena, Mathew)">
-                  </a> <!-- validateInvalidLoginTest(Leena, Mathew) -->
-                  <span class="method-name">validateInvalidLoginTest</span>
-                  <span class="parameters">(Leena, Mathew)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="validateInvalidLoginTest(Arun, Mammen)">
                   </a> <!-- validateInvalidLoginTest(Arun, Mammen) -->
                   <span class="method-name">validateInvalidLoginTest</span>
                   <span class="parameters">(Arun, Mammen)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateInvalidLoginTest(Leena, Mathew)">
+                  </a> <!-- validateInvalidLoginTest(Leena, Mathew) -->
+                  <span class="method-name">validateInvalidLoginTest</span>
+                  <span class="parameters">(Leena, Mathew)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -447,6 +416,29 @@ Session ID: af88b00528e14e119df978c1ee3a5ba1
                   <span class="method-name">validateVacationsLinkPresentTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateValidLoginTest(mercury, mercury)">
+                  </a> <!-- validateValidLoginTest(mercury, mercury) -->
+                  <span class="method-name">validateValidLoginTest</span>
+                  <span class="parameters">(mercury, mercury)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Merury_Tours_Automation_Test_suite-class-passed -->
+          <div class="suite-Merury_Tours_Automation_Test_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mercury.qa.testcases.SelectFlightTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateDepartReturnFlightSelection">
+                  </a> <!-- validateDepartReturnFlightSelection -->
+                  <span class="method-name">validateDepartReturnFlightSelection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Merury_Tours_Automation_Test_suite-class-passed -->
         </div> <!-- panel Merury_Tours_Automation_Test_suite -->
@@ -463,6 +455,7 @@ Session ID: af88b00528e14e119df978c1ee3a5ba1
     &lt;classes&gt;
       &lt;class name=&quot;com.mercury.qa.testcases.LoginPageTest&quot;/&gt;
       &lt;class name=&quot;com.mercury.qa.testcases.FlightFinderTest&quot;/&gt;
+      &lt;class name=&quot;com.mercury.qa.testcases.SelectFlightTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Mercury Tours testcases --&gt;
 &lt;/suite&gt; &lt;!-- Merury Tours Automation Test suite --&gt;
@@ -476,7 +469,7 @@ Session ID: af88b00528e14e119df978c1ee3a5ba1
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Mercury Tours testcases (2 classes)</span>
+                <span class="test-name">Mercury Tours testcases (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -502,100 +495,104 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(22);
+data.addRows(23);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'validateValidLoginTest')
 data.setCell(0, 2, 'com.mercury.qa.testcases.LoginPageTest')
-data.setCell(0, 3, 30643);
+data.setCell(0, 3, 4567);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'validateInvalidLoginTest')
-data.setCell(1, 2, 'com.mercury.qa.testcases.LoginPageTest')
-data.setCell(1, 3, 2258);
+data.setCell(1, 1, 'validateFlightFinderTest')
+data.setCell(1, 2, 'com.mercury.qa.testcases.FlightFinderTest')
+data.setCell(1, 3, 2206);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'validateInvalidLoginTest')
 data.setCell(2, 2, 'com.mercury.qa.testcases.LoginPageTest')
-data.setCell(2, 3, 2224);
+data.setCell(2, 3, 2187);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'validateFlightFinderTest')
-data.setCell(3, 2, 'com.mercury.qa.testcases.FlightFinderTest')
-data.setCell(3, 3, 2180);
+data.setCell(3, 1, 'validateInvalidLoginTest')
+data.setCell(3, 2, 'com.mercury.qa.testcases.LoginPageTest')
+data.setCell(3, 3, 2174);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'validateInvalidLoginTest')
 data.setCell(4, 2, 'com.mercury.qa.testcases.LoginPageTest')
-data.setCell(4, 3, 1970);
+data.setCell(4, 3, 2009);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'validateClickOnRegisterLinkTest')
-data.setCell(5, 2, 'com.mercury.qa.testcases.LoginPageTest')
-data.setCell(5, 3, 1511);
+data.setCell(5, 1, 'validateDepartReturnFlightSelection')
+data.setCell(5, 2, 'com.mercury.qa.testcases.SelectFlightTest')
+data.setCell(5, 3, 1996);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'validateClickOnSignInLinkTest')
+data.setCell(6, 1, 'validateClickOnRegisterLinkTest')
 data.setCell(6, 2, 'com.mercury.qa.testcases.LoginPageTest')
-data.setCell(6, 3, 926);
+data.setCell(6, 3, 1227);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'validateClickOnContactLinkTest')
+data.setCell(7, 1, 'validateClickOnSignInLinkTest')
 data.setCell(7, 2, 'com.mercury.qa.testcases.LoginPageTest')
-data.setCell(7, 3, 891);
+data.setCell(7, 3, 914);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'validateClickOnSupportLinkTest')
+data.setCell(8, 1, 'validateClickOnContactLinkTest')
 data.setCell(8, 2, 'com.mercury.qa.testcases.LoginPageTest')
-data.setCell(8, 3, 885);
+data.setCell(8, 3, 909);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'validateCarRentalsLinkPresentTest')
+data.setCell(9, 1, 'validateClickOnSupportLinkTest')
 data.setCell(9, 2, 'com.mercury.qa.testcases.LoginPageTest')
-data.setCell(9, 3, 63);
+data.setCell(9, 3, 859);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'validateRegisterLinkPresentTest')
+data.setCell(10, 1, 'validateCarRentalsLinkPresentTest')
 data.setCell(10, 2, 'com.mercury.qa.testcases.LoginPageTest')
-data.setCell(10, 3, 60);
+data.setCell(10, 3, 59);
 data.setCell(11, 0, 11)
 data.setCell(11, 1, 'validateSignInLinkPresentTest')
 data.setCell(11, 2, 'com.mercury.qa.testcases.LoginPageTest')
-data.setCell(11, 3, 59);
+data.setCell(11, 3, 57);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'validateLogoPresentTest')
+data.setCell(12, 1, 'validateHotelsLinkPresentTest')
 data.setCell(12, 2, 'com.mercury.qa.testcases.LoginPageTest')
-data.setCell(12, 3, 58);
+data.setCell(12, 3, 55);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'validateSupportLinkPresentTest')
+data.setCell(13, 1, 'validateHomeLinkPresentTest')
 data.setCell(13, 2, 'com.mercury.qa.testcases.LoginPageTest')
-data.setCell(13, 3, 54);
+data.setCell(13, 3, 55);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'validateHomeLinkPresentTest')
+data.setCell(14, 1, 'validateCruisesLinkPresentTest')
 data.setCell(14, 2, 'com.mercury.qa.testcases.LoginPageTest')
-data.setCell(14, 3, 54);
+data.setCell(14, 3, 53);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'validateFlightsLinkPresentTest')
+data.setCell(15, 1, 'validateContactLinkPresentTest')
 data.setCell(15, 2, 'com.mercury.qa.testcases.LoginPageTest')
-data.setCell(15, 3, 52);
+data.setCell(15, 3, 53);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'validateCruisesLinkPresentTest')
+data.setCell(16, 1, 'validateVacationsLinkPresentTest')
 data.setCell(16, 2, 'com.mercury.qa.testcases.LoginPageTest')
 data.setCell(16, 3, 52);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'validateDestinationsLinkPresentTest')
+data.setCell(17, 1, 'validateFlightsLinkPresentTest')
 data.setCell(17, 2, 'com.mercury.qa.testcases.LoginPageTest')
-data.setCell(17, 3, 50);
+data.setCell(17, 3, 45);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'validateHotelsLinkPresentTest')
+data.setCell(18, 1, 'validateDestinationsLinkPresentTest')
 data.setCell(18, 2, 'com.mercury.qa.testcases.LoginPageTest')
-data.setCell(18, 3, 49);
+data.setCell(18, 3, 44);
 data.setCell(19, 0, 19)
-data.setCell(19, 1, 'validateContactLinkPresentTest')
+data.setCell(19, 1, 'validateSupportLinkPresentTest')
 data.setCell(19, 2, 'com.mercury.qa.testcases.LoginPageTest')
-data.setCell(19, 3, 49);
+data.setCell(19, 3, 42);
 data.setCell(20, 0, 20)
-data.setCell(20, 1, 'validateVacationsLinkPresentTest')
+data.setCell(20, 1, 'validateRegisterLinkPresentTest')
 data.setCell(20, 2, 'com.mercury.qa.testcases.LoginPageTest')
-data.setCell(20, 3, 46);
+data.setCell(20, 3, 41);
 data.setCell(21, 0, 21)
-data.setCell(21, 1, 'validateTitleTest')
+data.setCell(21, 1, 'validateLogoPresentTest')
 data.setCell(21, 2, 'com.mercury.qa.testcases.LoginPageTest')
-data.setCell(21, 3, 21);
+data.setCell(21, 3, 40);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'validateTitleTest')
+data.setCell(22, 2, 'com.mercury.qa.testcases.LoginPageTest')
+data.setCell(22, 3, 24);
 window.suiteTableData['Merury_Tours_Automation_Test_suite']= { tableData: data, tableDiv: 'times-div-Merury_Tours_Automation_Test_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 44 seconds</span>
+              <span class="suite-total-time">Total running time: 19 seconds</span>
               <div id="times-div-Merury_Tours_Automation_Test_suite">
               </div> <!-- times-div-Merury_Tours_Automation_Test_suite -->
             </div> <!-- times-div -->
@@ -628,272 +625,285 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateTitleTest</span>
-                <span class="method-start">7769 ms</span>
+                <span class="method-start">7381 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">7790 ms</span>
+                <span class="method-start">7405 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">8567 ms</span>
+                <span class="method-start">8223 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateSignInLinkPresentTest</span>
-                <span class="method-start">15880 ms</span>
+                <span class="method-start">14124 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">15939 ms</span>
+                <span class="method-start">14181 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">16672 ms</span>
+                <span class="method-start">14935 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateRegisterLinkPresentTest</span>
-                <span class="method-start">23500 ms</span>
+                <span class="method-start">21798 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">23564 ms</span>
+                <span class="method-start">21839 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">24401 ms</span>
+                <span class="method-start">22569 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateSupportLinkPresentTest</span>
-                <span class="method-start">31281 ms</span>
+                <span class="method-start">28355 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">31335 ms</span>
+                <span class="method-start">28413 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">32071 ms</span>
+                <span class="method-start">29163 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateContactLinkPresentTest</span>
-                <span class="method-start">38645 ms</span>
+                <span class="method-start">35485 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">38694 ms</span>
+                <span class="method-start">35538 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">39454 ms</span>
+                <span class="method-start">36270 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateHomeLinkPresentTest</span>
-                <span class="method-start">46082 ms</span>
+                <span class="method-start">42275 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">46136 ms</span>
+                <span class="method-start">42330 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">46888 ms</span>
+                <span class="method-start">43133 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateFlightsLinkPresentTest</span>
-                <span class="method-start">54066 ms</span>
+                <span class="method-start">48927 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">54118 ms</span>
+                <span class="method-start">48972 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">54852 ms</span>
+                <span class="method-start">49751 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateHotelsLinkPresentTest</span>
-                <span class="method-start">62006 ms</span>
+                <span class="method-start">55837 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">62055 ms</span>
+                <span class="method-start">55894 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">62868 ms</span>
+                <span class="method-start">56623 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateCarRentalsLinkPresentTest</span>
-                <span class="method-start">69723 ms</span>
+                <span class="method-start">62529 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">69786 ms</span>
+                <span class="method-start">62588 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">70519 ms</span>
+                <span class="method-start">63484 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateCruisesLinkPresentTest</span>
-                <span class="method-start">77088 ms</span>
+                <span class="method-start">69643 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">77140 ms</span>
+                <span class="method-start">69696 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">77942 ms</span>
+                <span class="method-start">70462 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateDestinationsLinkPresentTest</span>
-                <span class="method-start">84999 ms</span>
+                <span class="method-start">76526 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">85049 ms</span>
+                <span class="method-start">76570 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">85814 ms</span>
+                <span class="method-start">77317 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateVacationsLinkPresentTest</span>
-                <span class="method-start">92479 ms</span>
+                <span class="method-start">83557 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">92525 ms</span>
+                <span class="method-start">83610 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">93400 ms</span>
+                <span class="method-start">84357 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateLogoPresentTest</span>
-                <span class="method-start">100128 ms</span>
+                <span class="method-start">90364 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">100186 ms</span>
+                <span class="method-start">90404 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">100962 ms</span>
+                <span class="method-start">91152 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateClickOnSignInLinkTest</span>
-                <span class="method-start">107928 ms</span>
+                <span class="method-start">97198 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">108854 ms</span>
+                <span class="method-start">98114 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">109600 ms</span>
+                <span class="method-start">99086 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateClickOnRegisterLinkTest</span>
-                <span class="method-start">116144 ms</span>
+                <span class="method-start">105051 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">117658 ms</span>
+                <span class="method-start">106279 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">118363 ms</span>
+                <span class="method-start">107022 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">validateClickOnSupportLinkTest</span>
-                <span class="method-start">125647 ms</span>
+                <span class="method-start">113273 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">126536 ms</span>
+                <span class="method-start">114135 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">127267 ms</span>
+                <span class="method-start">114891 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">validateClickOnContactLinkTest</span>
-                <span class="method-start">133414 ms</span>
+                <span class="method-start">121392 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">134305 ms</span>
+                <span class="method-start">122303 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">135704 ms</span>
+                <span class="method-start">123724 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateInvalidLoginTest(Arun, Mammen)</span>
-                <span class="method-start">141976 ms</span>
+                <span class="method-start">130211 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">143948 ms</span>
+                <span class="method-start">132400 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">144668 ms</span>
+                <span class="method-start">133120 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateInvalidLoginTest(Leena, Mathew)</span>
-                <span class="method-start">150691 ms</span>
+                <span class="method-start">139003 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">152950 ms</span>
+                <span class="method-start">141013 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">153688 ms</span>
+                <span class="method-start">141742 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateInvalidLoginTest(admin, admin)</span>
-                <span class="method-start">160630 ms</span>
+                <span class="method-start">147962 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">162856 ms</span>
+                <span class="method-start">150136 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">163584 ms</span>
+                <span class="method-start">150912 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">validateValidLoginTest(mercury, mercury)</span>
-                <span class="method-start">169754 ms</span>
+                <span class="method-start">157323 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">200401 ms</span>
+                <span class="method-start">161891 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.mercury.qa.testcases.FlightFinderTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">201138 ms</span>
+                <span class="method-start">162606 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateFlightFinderTest</span>
-                <span class="method-start">232885 ms</span>
+                <span class="method-start">174598 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">235069 ms</span>
+                <span class="method-start">176805 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mercury.qa.testcases.SelectFlightTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">177536 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateDepartReturnFlightSelection</span>
+                <span class="method-start">191405 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">193402 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
