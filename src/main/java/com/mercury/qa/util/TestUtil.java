@@ -16,7 +16,7 @@ import com.mercury.qa.base.TestBase;
 public class TestUtil extends TestBase
 {
 	public static int PAGE_LOAD_TIMEOUT=30;
-	public static int IMPLICIT_WAIT=20;
+	public static int IMPLICIT_WAIT=30;
 	private static XSSFWorkbook wb;
 	private static Logger log = Logger.getLogger("TestUtil.class");
 
@@ -48,7 +48,7 @@ public class TestUtil extends TestBase
 		return data;
 	}
 	
-	public static void takeScreenshotAtEndOfTest() throws IOException
+	public void takeScreenshotAtEndOfTest() throws IOException
 	{
 		log.info("Trying to take screenshot");
 		TakesScreenshot scrShot =((TakesScreenshot)driver);

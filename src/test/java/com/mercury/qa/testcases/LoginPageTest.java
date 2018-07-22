@@ -28,6 +28,7 @@ public class LoginPageTest extends TestBase
 	
 	public LoginPageTest()
 	{
+		log.info("LoginpageTest configuration file");
 		loadConfigurationFile();
 		
 	}

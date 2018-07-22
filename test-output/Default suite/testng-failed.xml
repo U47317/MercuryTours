@@ -7,8 +7,7 @@
         <methods>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="validateClickOnSupportLinkTest"/>
-          <include name="validateClickOnContactLinkTest"/>
+          <include name="validateTitleTest"/>
         </methods>
       </class> <!-- com.mercury.qa.testcases.LoginPageTest -->
     </classes>

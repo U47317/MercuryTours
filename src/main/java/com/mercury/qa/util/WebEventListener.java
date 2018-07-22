@@ -11,6 +11,7 @@ import org.openqa.selenium.support.events.WebDriverEventListener;
 public class WebEventListener implements WebDriverEventListener{
 
 	private static Logger log = Logger.getLogger(WebEventListener.class);
+	private TestUtil testUtil;
 	@Override
 	public void afterAlertAccept(WebDriver arg0) {
 		// TODO Auto-generated method stub
@@ -175,7 +176,8 @@ public class WebEventListener implements WebDriverEventListener{
 		log.info("Exception caught");
 		try
 		{
-			TestUtil.takeScreenshotAtEndOfTest();
+			testUtil = new TestUtil();
+			testUtil.takeScreenshotAtEndOfTest();
 		}
 		catch (Exception e)
 		{

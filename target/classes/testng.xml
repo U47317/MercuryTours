@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Merury Tours Automation Test suite" verbose="1">
+  <test name="Mercury Tours testcases">
+    <classes>
+  	   <class name="com.mercury.qa.testcases.LoginPageTest"></class>
+       <class name="com.mercury.qa.testcases.FlightFinderTest"></class>
+    </classes>
+ </test>
+</suite>

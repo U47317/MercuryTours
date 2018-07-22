@@ -20,7 +20,7 @@ public class TestBase
 {
 	
 	private static Logger log = Logger.getLogger(TestBase.class);
-	private static Properties prop;
+	protected static Properties prop;
 	protected static WebDriver driver;
 	
 	//for loading configuration file
@@ -56,7 +56,7 @@ public class TestBase
 			log.info("Launching firefox browser");
 			System.getProperty("webdriver.gecko.driver", "G:\\Mercury tours workspace\\firefoxdriver\\geckodriver.exe");
 			driver = new FirefoxDriver();
-			log.info("Chrome launched successfully");
+			log.info("firefox launched successfully");
 		}
 		
 		//for WebDriverEventListner to get activated
