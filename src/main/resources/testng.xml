@@ -6,6 +6,7 @@
   	   <class name="com.mercury.qa.testcases.LoginPageTest"></class>
        <class name="com.mercury.qa.testcases.FlightFinderTest"></class>
        <class name="com.mercury.qa.testcases.SelectFlightTest"></class>
+       <class name="com.mercury.qa.testcases.BookFlightTest"></class>
     </classes>
  </test>
 </suite>

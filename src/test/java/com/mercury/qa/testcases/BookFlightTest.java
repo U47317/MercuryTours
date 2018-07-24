@@ -4,20 +4,26 @@ import org.apache.log4j.Logger;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
+
+
 import com.mercury.qa.base.TestBase;
+import com.mercury.qa.pages.BookFlightPage;
 import com.mercury.qa.pages.FlightFinderPage;
 import com.mercury.qa.pages.LoginPage;
 import com.mercury.qa.pages.SelectFlightPage;
 
-public class SelectFlightTest extends TestBase {
+public class BookFlightTest extends TestBase{
 
 	private SelectFlightPage selectFlightPage;
 	private LoginPage loginPage;
 	private FlightFinderPage flightFinderPage;
-	private static Logger log = Logger.getLogger(SelectFlightTest.class);
-	SelectFlightTest()
+	private BookFlightPage bookFlightPage;
+	private static Logger log = Logger.getLogger(BookFlightTest.class);
+	
+	public BookFlightTest()
 	{
-		log.info("SelectFlightTest configuration file");
+		log.info("BookFlightTest configuration file");
 		loadConfigurationFile();
 	}
 	
@@ -25,22 +31,24 @@ public class SelectFlightTest extends TestBase {
 	public void setup()
 	{
 		initialization();
-		selectFlightPage=new SelectFlightPage();
 		loginPage=new LoginPage();
+		selectFlightPage=new SelectFlightPage();
+		bookFlightPage=new BookFlightPage();
 		flightFinderPage=loginPage.validateLogin(prop.getProperty("username"), prop.getProperty("password"));
 		selectFlightPage=flightFinderPage.findFlights();
-		}
-	
-	@Test(priority=21)
-	public void validateDepartReturnFlightSelection()
-	{
-		log.info("******Validate Depart Return Flight Selection******");
 		selectFlightPage.validateFlightSelection();
+		
+	}
+	@Test(priority=22)
+	public void validateSummaryTest()
+	{
+		log.info("******Validate Summary Test******");
+		bookFlightPage.validateSummary();
 		log.info("******END******");
 	}
 	
 	@AfterMethod
-	public void teardown()
+	public void tearDown()
 	{
 		driver.quit();
 		log.info("Browser closed successfully");
