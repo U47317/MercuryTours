@@ -54,7 +54,7 @@ public class TestUtil extends TestBase
 		TakesScreenshot scrShot =((TakesScreenshot)driver);
 		File SrcFile=scrShot.getScreenshotAs(OutputType.FILE);
 		File DestFile=new File("G:\\Mercury tours workspace\\MercuryTours\\Screenshots\\"+System.currentTimeMillis()+".png");
-	    FileUtils.copyFile(SrcFile, DestFile);
+		FileUtils.copyFile(SrcFile, DestFile);
 	    log.info("Screenshot has been taken successfully");
 	}
 

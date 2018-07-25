@@ -42,7 +42,7 @@ public class BookFlightTest extends TestBase{
 	@Test(priority=22)
 	public void validateSummaryTest()
 	{
-		log.info("******Validate Summary Test******");
+		log.info("******Validate Summary in Book Flight Test******");
 		bookFlightPage.validateSummary();
 		log.info("******END******");
 	}

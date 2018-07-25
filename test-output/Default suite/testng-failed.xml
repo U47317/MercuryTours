@@ -3,13 +3,30 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.mercury.qa.testcases.BookFlightTest">
+      <class name="com.mercury.qa.testcases.LoginPageTest">
         <methods>
-          <include name="setup"/>
+          <include name="validateSignInLinkPresentTest"/>
           <include name="tearDown"/>
-          <include name="validateSummaryTest"/>
+          <include name="validateInvalidLoginTest"/>
+          <include name="validateVacationsLinkPresentTest"/>
+          <include name="validateCarRentalsLinkPresentTest"/>
+          <include name="validateValidLoginTest"/>
+          <include name="validateClickOnContactLinkTest"/>
+          <include name="validateClickOnRegisterLinkTest"/>
+          <include name="validateClickOnSignInLinkTest"/>
+          <include name="validateDestinationsLinkPresentTest"/>
+          <include name="validateFlightsLinkPresentTest"/>
+          <include name="setup"/>
+          <include name="validateClickOnSupportLinkTest"/>
+          <include name="validateHotelsLinkPresentTest"/>
+          <include name="validateContactLinkPresentTest"/>
+          <include name="validateCruisesLinkPresentTest"/>
+          <include name="validateSupportLinkPresentTest"/>
+          <include name="validateHomeLinkPresentTest"/>
+          <include name="validateRegisterLinkPresentTest"/>
+          <include name="validateLogoPresentTest"/>
         </methods>
-      </class> <!-- com.mercury.qa.testcases.BookFlightTest -->
+      </class> <!-- com.mercury.qa.testcases.LoginPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

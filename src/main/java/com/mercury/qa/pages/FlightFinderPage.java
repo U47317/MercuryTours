@@ -72,7 +72,7 @@ public class FlightFinderPage extends TestBase
 		roundTripRadioButton.click();
 		sel = new Select(passengersDropDown);
 		sel.selectByIndex(1);
-		passengerDropDownValue=sel.getFirstSelectedOption().getText();
+		passengerDropDownValue=sel.getFirstSelectedOption().getText().trim();
 		sel= new Select(departingFromDropDown);
 		sel.selectByVisibleText("New York");
 		sourceLocation=sel.getFirstSelectedOption().getText();
