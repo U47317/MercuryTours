@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Merury Tours Automation Test suite" verbose="1">
+<listeners>
+  	<listener class-name="com.mercury.qa.util.TransformAnnotation"/>
+  	<listener class-name="com.mercury.qa.extentreport.ExtentReportNG"/>
+</listeners>
   <test name="Mercury Tours testcases">
     <classes>
   	   <class name="com.mercury.qa.testcases.LoginPageTest"></class>

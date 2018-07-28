@@ -10,6 +10,8 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.mercury.qa.base.TestBase;
 
@@ -19,6 +21,13 @@ public class TestUtil extends TestBase
 	public static int IMPLICIT_WAIT=30;
 	private static XSSFWorkbook wb;
 	private static Logger log = Logger.getLogger("TestUtil.class");
+	
+	public void acceptAlert()
+	{
+		WebDriverWait wait = new WebDriverWait(driver,10);
+		wait.until(ExpectedConditions.alertIsPresent());
+		driver.switchTo().alert().accept();
+	}
 
 	public static Object[][] getTestData(String sheetName)
 	{

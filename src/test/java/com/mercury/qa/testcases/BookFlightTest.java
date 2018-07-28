@@ -1,14 +1,18 @@
 package com.mercury.qa.testcases;
 
 import org.apache.log4j.Logger;
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 
 
+
+
 import com.mercury.qa.base.TestBase;
 import com.mercury.qa.pages.BookFlightPage;
+import com.mercury.qa.pages.FlightConfirmationPage;
 import com.mercury.qa.pages.FlightFinderPage;
 import com.mercury.qa.pages.LoginPage;
 import com.mercury.qa.pages.SelectFlightPage;
@@ -19,6 +23,7 @@ public class BookFlightTest extends TestBase{
 	private LoginPage loginPage;
 	private FlightFinderPage flightFinderPage;
 	private BookFlightPage bookFlightPage;
+	private FlightConfirmationPage flightConfirmationPage;
 	private static Logger log = Logger.getLogger(BookFlightTest.class);
 	
 	public BookFlightTest()
@@ -44,6 +49,15 @@ public class BookFlightTest extends TestBase{
 	{
 		log.info("******Validate Summary in Book Flight Test******");
 		bookFlightPage.validateSummary();
+		log.info("******END******");
+	}
+	
+	@Test(priority=23)
+	public void validateFlightBookingTest()
+	{
+		log.info("******Validate Flight Booking Test******");
+		flightConfirmationPage=bookFlightPage.validateFlightBooking();
+		Assert.assertEquals(flightConfirmationPage.validateTitle(), "Flight Confirmation: Mercury Tours");
 		log.info("******END******");
 	}
 	

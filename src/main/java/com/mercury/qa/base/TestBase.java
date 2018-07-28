@@ -3,15 +3,12 @@ package com.mercury.qa.base;
 import java.io.FileInputStream;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
+
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-
-
-
 import org.openqa.selenium.support.events.EventFiringWebDriver;
-
 import com.mercury.qa.util.TestUtil;
 import com.mercury.qa.util.WebEventListener;
 
