@@ -1,0 +1,4 @@
+com\mercury\qa\testcases\LoginPageTest.class
+com\mercury\qa\testcases\BookFlightTest.class
+com\mercury\qa\testcases\SelectFlightTest.class
+com\mercury\qa\testcases\FlightFinderTest.class

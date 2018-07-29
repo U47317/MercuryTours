@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="11371" started-at="2018-07-29T05:53:11Z" finished-at="2018-07-29T05:53:22Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="11371" started-at="2018-07-29T05:53:11Z" finished-at="2018-07-29T05:53:22Z">
+      <class name="com.mercury.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@3ffc5af1]" name="setup" is-config="true" duration-ms="10611" started-at="2018-07-29T05:53:11Z" finished-at="2018-07-29T05:53:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateTitleTest()[pri:1, instance:com.mercury.qa.testcases.LoginPageTest@3ffc5af1]" name="validateTitleTest" duration-ms="13" started-at="2018-07-29T05:53:21Z" finished-at="2018-07-29T05:53:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@3ffc5af1]" name="tearDown" is-config="true" duration-ms="723" started-at="2018-07-29T05:53:21Z" finished-at="2018-07-29T05:53:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mercury.qa.testcases.LoginPageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
