@@ -2,222 +2,222 @@
 <testng-results skipped="6" failed="2" ignored="0" total="31" passed="23">
   <reporter-output>
   </reporter-output>
-  <suite name="Merury Tours Automation Test suite" duration-ms="309410" started-at="2018-07-28T17:37:01Z" finished-at="2018-07-28T17:42:11Z">
+  <suite name="Merury Tours Automation Test suite" duration-ms="277054" started-at="2018-07-29T04:39:40Z" finished-at="2018-07-29T04:44:17Z">
     <groups>
     </groups>
-    <test name="Mercury Tours testcases" duration-ms="309410" started-at="2018-07-28T17:37:01Z" finished-at="2018-07-28T17:42:11Z">
+    <test name="Mercury Tours testcases" duration-ms="277054" started-at="2018-07-29T04:39:40Z" finished-at="2018-07-29T04:44:17Z">
       <class name="com.mercury.qa.testcases.BookFlightTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.BookFlightTest@23e028a9]" name="setup" is-config="true" duration-ms="16495" started-at="2018-07-28T17:41:27Z" finished-at="2018-07-28T17:41:44Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.BookFlightTest@23e028a9]" name="setup" is-config="true" duration-ms="15141" started-at="2018-07-29T04:43:40Z" finished-at="2018-07-29T04:43:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateSummaryTest()[pri:22, instance:com.mercury.qa.testcases.BookFlightTest@23e028a9]" name="validateSummaryTest" duration-ms="700" started-at="2018-07-28T17:41:44Z" finished-at="2018-07-28T17:41:45Z">
+        <test-method status="PASS" signature="validateSummaryTest()[pri:22, instance:com.mercury.qa.testcases.BookFlightTest@23e028a9]" name="validateSummaryTest" duration-ms="588" started-at="2018-07-29T04:43:55Z" finished-at="2018-07-29T04:43:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSummaryTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.BookFlightTest@23e028a9]" name="tearDown" is-config="true" duration-ms="840" started-at="2018-07-28T17:41:45Z" finished-at="2018-07-28T17:41:45Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.BookFlightTest@23e028a9]" name="tearDown" is-config="true" duration-ms="795" started-at="2018-07-29T04:43:55Z" finished-at="2018-07-29T04:43:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.BookFlightTest@23e028a9]" name="setup" is-config="true" duration-ms="20308" started-at="2018-07-28T17:41:45Z" finished-at="2018-07-28T17:42:06Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.BookFlightTest@23e028a9]" name="setup" is-config="true" duration-ms="15662" started-at="2018-07-29T04:43:56Z" finished-at="2018-07-29T04:44:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateFlightBookingTest()[pri:23, instance:com.mercury.qa.testcases.BookFlightTest@23e028a9]" name="validateFlightBookingTest" duration-ms="4188" started-at="2018-07-28T17:42:06Z" finished-at="2018-07-28T17:42:10Z">
+        <test-method status="PASS" signature="validateFlightBookingTest()[pri:23, instance:com.mercury.qa.testcases.BookFlightTest@23e028a9]" name="validateFlightBookingTest" duration-ms="4170" started-at="2018-07-29T04:44:12Z" finished-at="2018-07-29T04:44:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateFlightBookingTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.BookFlightTest@23e028a9]" name="tearDown" is-config="true" duration-ms="866" started-at="2018-07-28T17:42:10Z" finished-at="2018-07-28T17:42:11Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.BookFlightTest@23e028a9]" name="tearDown" is-config="true" duration-ms="730" started-at="2018-07-29T04:44:16Z" finished-at="2018-07-29T04:44:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.mercury.qa.testcases.BookFlightTest -->
       <class name="com.mercury.qa.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="15351" started-at="2018-07-28T17:37:01Z" finished-at="2018-07-28T17:37:17Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="7808" started-at="2018-07-29T04:39:40Z" finished-at="2018-07-29T04:39:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateTitleTest()[pri:1, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateTitleTest" duration-ms="18" started-at="2018-07-28T17:37:17Z" finished-at="2018-07-28T17:37:17Z">
+        <test-method status="PASS" signature="validateTitleTest()[pri:1, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateTitleTest" duration-ms="26" started-at="2018-07-29T04:39:48Z" finished-at="2018-07-29T04:39:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="1091" started-at="2018-07-28T17:37:17Z" finished-at="2018-07-28T17:37:18Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="823" started-at="2018-07-29T04:39:48Z" finished-at="2018-07-29T04:39:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="8543" started-at="2018-07-28T17:37:18Z" finished-at="2018-07-28T17:37:26Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="5945" started-at="2018-07-29T04:39:48Z" finished-at="2018-07-29T04:39:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateSignInLinkPresentTest()[pri:2, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateSignInLinkPresentTest" duration-ms="68" started-at="2018-07-28T17:37:26Z" finished-at="2018-07-28T17:37:27Z">
+        <test-method status="PASS" signature="validateSignInLinkPresentTest()[pri:2, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateSignInLinkPresentTest" duration-ms="55" started-at="2018-07-29T04:39:54Z" finished-at="2018-07-29T04:39:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSignInLinkPresentTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="980" started-at="2018-07-28T17:37:27Z" finished-at="2018-07-28T17:37:27Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="793" started-at="2018-07-29T04:39:54Z" finished-at="2018-07-29T04:39:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="7649" started-at="2018-07-28T17:37:27Z" finished-at="2018-07-28T17:37:35Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="6151" started-at="2018-07-29T04:39:55Z" finished-at="2018-07-29T04:40:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateRegisterLinkPresentTest()[pri:3, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateRegisterLinkPresentTest" duration-ms="54" started-at="2018-07-28T17:37:35Z" finished-at="2018-07-28T17:37:35Z">
+        <test-method status="PASS" signature="validateRegisterLinkPresentTest()[pri:3, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateRegisterLinkPresentTest" duration-ms="48" started-at="2018-07-29T04:40:01Z" finished-at="2018-07-29T04:40:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateRegisterLinkPresentTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="818" started-at="2018-07-28T17:37:35Z" finished-at="2018-07-28T17:37:36Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="811" started-at="2018-07-29T04:40:01Z" finished-at="2018-07-29T04:40:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="7330" started-at="2018-07-28T17:37:36Z" finished-at="2018-07-28T17:37:43Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="5942" started-at="2018-07-29T04:40:02Z" finished-at="2018-07-29T04:40:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateSupportLinkPresentTest()[pri:4, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateSupportLinkPresentTest" duration-ms="44" started-at="2018-07-28T17:37:43Z" finished-at="2018-07-28T17:37:43Z">
+        <test-method status="PASS" signature="validateSupportLinkPresentTest()[pri:4, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateSupportLinkPresentTest" duration-ms="39" started-at="2018-07-29T04:40:08Z" finished-at="2018-07-29T04:40:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSupportLinkPresentTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="862" started-at="2018-07-28T17:37:43Z" finished-at="2018-07-28T17:37:44Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="751" started-at="2018-07-29T04:40:08Z" finished-at="2018-07-29T04:40:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="7256" started-at="2018-07-28T17:37:44Z" finished-at="2018-07-28T17:37:52Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="5859" started-at="2018-07-29T04:40:09Z" finished-at="2018-07-29T04:40:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateContactLinkPresentTest()[pri:5, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateContactLinkPresentTest" duration-ms="58" started-at="2018-07-28T17:37:52Z" finished-at="2018-07-28T17:37:52Z">
+        <test-method status="PASS" signature="validateContactLinkPresentTest()[pri:5, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateContactLinkPresentTest" duration-ms="56" started-at="2018-07-29T04:40:15Z" finished-at="2018-07-29T04:40:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateContactLinkPresentTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="761" started-at="2018-07-28T17:37:52Z" finished-at="2018-07-28T17:37:52Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="706" started-at="2018-07-29T04:40:15Z" finished-at="2018-07-29T04:40:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="7826" started-at="2018-07-28T17:37:52Z" finished-at="2018-07-28T17:38:00Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="5772" started-at="2018-07-29T04:40:16Z" finished-at="2018-07-29T04:40:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateHomeLinkPresentTest()[pri:6, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateHomeLinkPresentTest" duration-ms="53" started-at="2018-07-28T17:38:00Z" finished-at="2018-07-28T17:38:00Z">
+        <test-method status="PASS" signature="validateHomeLinkPresentTest()[pri:6, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateHomeLinkPresentTest" duration-ms="55" started-at="2018-07-29T04:40:21Z" finished-at="2018-07-29T04:40:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateHomeLinkPresentTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="733" started-at="2018-07-28T17:38:00Z" finished-at="2018-07-28T17:38:01Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="750" started-at="2018-07-29T04:40:21Z" finished-at="2018-07-29T04:40:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="7406" started-at="2018-07-28T17:38:01Z" finished-at="2018-07-28T17:38:08Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="6323" started-at="2018-07-29T04:40:22Z" finished-at="2018-07-29T04:40:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateFlightsLinkPresentTest()[pri:7, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateFlightsLinkPresentTest" duration-ms="58" started-at="2018-07-28T17:38:08Z" finished-at="2018-07-28T17:38:08Z">
+        <test-method status="PASS" signature="validateFlightsLinkPresentTest()[pri:7, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateFlightsLinkPresentTest" duration-ms="95" started-at="2018-07-29T04:40:29Z" finished-at="2018-07-29T04:40:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateFlightsLinkPresentTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="762" started-at="2018-07-28T17:38:08Z" finished-at="2018-07-28T17:38:09Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="840" started-at="2018-07-29T04:40:29Z" finished-at="2018-07-29T04:40:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="7562" started-at="2018-07-28T17:38:09Z" finished-at="2018-07-28T17:38:17Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="7567" started-at="2018-07-29T04:40:29Z" finished-at="2018-07-29T04:40:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateHotelsLinkPresentTest()[pri:8, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateHotelsLinkPresentTest" duration-ms="52" started-at="2018-07-28T17:38:17Z" finished-at="2018-07-28T17:38:17Z">
+        <test-method status="PASS" signature="validateHotelsLinkPresentTest()[pri:8, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateHotelsLinkPresentTest" duration-ms="42" started-at="2018-07-29T04:40:37Z" finished-at="2018-07-29T04:40:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateHotelsLinkPresentTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="737" started-at="2018-07-28T17:38:17Z" finished-at="2018-07-28T17:38:18Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="885" started-at="2018-07-29T04:40:37Z" finished-at="2018-07-29T04:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="7460" started-at="2018-07-28T17:38:18Z" finished-at="2018-07-28T17:38:25Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="6906" started-at="2018-07-29T04:40:38Z" finished-at="2018-07-29T04:40:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateCarRentalsLinkPresentTest()[pri:9, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateCarRentalsLinkPresentTest" duration-ms="57" started-at="2018-07-28T17:38:25Z" finished-at="2018-07-28T17:38:25Z">
+        <test-method status="PASS" signature="validateCarRentalsLinkPresentTest()[pri:9, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateCarRentalsLinkPresentTest" duration-ms="68" started-at="2018-07-29T04:40:45Z" finished-at="2018-07-29T04:40:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCarRentalsLinkPresentTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="808" started-at="2018-07-28T17:38:25Z" finished-at="2018-07-28T17:38:26Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="870" started-at="2018-07-29T04:40:45Z" finished-at="2018-07-29T04:40:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="5816" started-at="2018-07-28T17:38:26Z" finished-at="2018-07-28T17:38:32Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="6758" started-at="2018-07-29T04:40:46Z" finished-at="2018-07-29T04:40:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateCruisesLinkPresentTest()[pri:10, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateCruisesLinkPresentTest" duration-ms="52" started-at="2018-07-28T17:38:32Z" finished-at="2018-07-28T17:38:32Z">
+        <test-method status="PASS" signature="validateCruisesLinkPresentTest()[pri:10, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateCruisesLinkPresentTest" duration-ms="51" started-at="2018-07-29T04:40:53Z" finished-at="2018-07-29T04:40:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCruisesLinkPresentTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="747" started-at="2018-07-28T17:38:32Z" finished-at="2018-07-28T17:38:32Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="733" started-at="2018-07-29T04:40:53Z" finished-at="2018-07-29T04:40:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="6080" started-at="2018-07-28T17:38:32Z" finished-at="2018-07-28T17:38:39Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="5693" started-at="2018-07-29T04:40:53Z" finished-at="2018-07-29T04:40:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateDestinationsLinkPresentTest()[pri:11, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateDestinationsLinkPresentTest" duration-ms="51" started-at="2018-07-28T17:38:39Z" finished-at="2018-07-28T17:38:39Z">
+        <test-method status="PASS" signature="validateDestinationsLinkPresentTest()[pri:11, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateDestinationsLinkPresentTest" duration-ms="66" started-at="2018-07-29T04:40:59Z" finished-at="2018-07-29T04:40:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateDestinationsLinkPresentTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="760" started-at="2018-07-28T17:38:39Z" finished-at="2018-07-28T17:38:39Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="825" started-at="2018-07-29T04:40:59Z" finished-at="2018-07-29T04:41:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="7123" started-at="2018-07-28T17:38:39Z" finished-at="2018-07-28T17:38:46Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="5651" started-at="2018-07-29T04:41:00Z" finished-at="2018-07-29T04:41:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateVacationsLinkPresentTest()[pri:12, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateVacationsLinkPresentTest" duration-ms="57" started-at="2018-07-28T17:38:46Z" finished-at="2018-07-28T17:38:47Z">
+        <test-method status="PASS" signature="validateVacationsLinkPresentTest()[pri:12, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateVacationsLinkPresentTest" duration-ms="45" started-at="2018-07-29T04:41:06Z" finished-at="2018-07-29T04:41:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateVacationsLinkPresentTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="900" started-at="2018-07-28T17:38:47Z" finished-at="2018-07-28T17:38:47Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="907" started-at="2018-07-29T04:41:06Z" finished-at="2018-07-29T04:41:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="6396" started-at="2018-07-28T17:38:47Z" finished-at="2018-07-28T17:38:54Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="5960" started-at="2018-07-29T04:41:07Z" finished-at="2018-07-29T04:41:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateLogoPresentTest()[pri:13, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateLogoPresentTest" duration-ms="48" started-at="2018-07-28T17:38:54Z" finished-at="2018-07-28T17:38:54Z">
+        <test-method status="PASS" signature="validateLogoPresentTest()[pri:13, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateLogoPresentTest" duration-ms="57" started-at="2018-07-29T04:41:12Z" finished-at="2018-07-29T04:41:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLogoPresentTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="745" started-at="2018-07-28T17:38:54Z" finished-at="2018-07-28T17:38:55Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="775" started-at="2018-07-29T04:41:13Z" finished-at="2018-07-29T04:41:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="6554" started-at="2018-07-28T17:38:55Z" finished-at="2018-07-28T17:39:01Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="6097" started-at="2018-07-29T04:41:13Z" finished-at="2018-07-29T04:41:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateClickOnSignInLinkTest()[pri:14, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateClickOnSignInLinkTest" duration-ms="789" started-at="2018-07-28T17:39:01Z" finished-at="2018-07-28T17:39:02Z">
+        <test-method status="PASS" signature="validateClickOnSignInLinkTest()[pri:14, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateClickOnSignInLinkTest" duration-ms="855" started-at="2018-07-29T04:41:19Z" finished-at="2018-07-29T04:41:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateClickOnSignInLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="737" started-at="2018-07-28T17:39:02Z" finished-at="2018-07-28T17:39:03Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="744" started-at="2018-07-29T04:41:20Z" finished-at="2018-07-29T04:41:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="6425" started-at="2018-07-28T17:39:03Z" finished-at="2018-07-28T17:39:09Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="6388" started-at="2018-07-29T04:41:21Z" finished-at="2018-07-29T04:41:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateClickOnRegisterLinkTest()[pri:15, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateClickOnRegisterLinkTest" duration-ms="1086" started-at="2018-07-28T17:39:09Z" finished-at="2018-07-28T17:39:10Z">
+        <test-method status="PASS" signature="validateClickOnRegisterLinkTest()[pri:15, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateClickOnRegisterLinkTest" duration-ms="1053" started-at="2018-07-29T04:41:27Z" finished-at="2018-07-29T04:41:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateClickOnRegisterLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="729" started-at="2018-07-28T17:39:10Z" finished-at="2018-07-28T17:39:11Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="707" started-at="2018-07-29T04:41:28Z" finished-at="2018-07-29T04:41:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="6602" started-at="2018-07-28T17:39:11Z" finished-at="2018-07-28T17:39:18Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="5778" started-at="2018-07-29T04:41:29Z" finished-at="2018-07-29T04:41:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="validateClickOnSupportLinkTest()[pri:16, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateClickOnSupportLinkTest" duration-ms="824" started-at="2018-07-28T17:39:18Z" finished-at="2018-07-28T17:39:18Z">
+        <test-method status="SKIP" signature="validateClickOnSupportLinkTest()[pri:16, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateClickOnSupportLinkTest" duration-ms="767" started-at="2018-07-29T04:41:35Z" finished-at="2018-07-29T04:41:36Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Support: Mercury Tours] but found [Under Construction: Mercury Tours]]]>
@@ -262,15 +262,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateClickOnSupportLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="745" started-at="2018-07-28T17:39:18Z" finished-at="2018-07-28T17:39:19Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="754" started-at="2018-07-29T04:41:36Z" finished-at="2018-07-29T04:41:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="6523" started-at="2018-07-28T17:39:19Z" finished-at="2018-07-28T17:39:26Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="6027" started-at="2018-07-29T04:41:36Z" finished-at="2018-07-29T04:41:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="validateClickOnSupportLinkTest()[pri:16, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateClickOnSupportLinkTest" duration-ms="799" started-at="2018-07-28T17:39:26Z" finished-at="2018-07-28T17:39:26Z">
+        <test-method status="SKIP" signature="validateClickOnSupportLinkTest()[pri:16, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateClickOnSupportLinkTest" duration-ms="715" started-at="2018-07-29T04:41:43Z" finished-at="2018-07-29T04:41:43Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Support: Mercury Tours] but found [Under Construction: Mercury Tours]]]>
@@ -315,15 +315,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateClickOnSupportLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="794" started-at="2018-07-28T17:39:26Z" finished-at="2018-07-28T17:39:27Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="715" started-at="2018-07-29T04:41:43Z" finished-at="2018-07-29T04:41:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="6276" started-at="2018-07-28T17:39:27Z" finished-at="2018-07-28T17:39:34Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="6589" started-at="2018-07-29T04:41:44Z" finished-at="2018-07-29T04:41:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="validateClickOnSupportLinkTest()[pri:16, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateClickOnSupportLinkTest" duration-ms="775" started-at="2018-07-28T17:39:34Z" finished-at="2018-07-28T17:39:34Z">
+        <test-method status="SKIP" signature="validateClickOnSupportLinkTest()[pri:16, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateClickOnSupportLinkTest" duration-ms="713" started-at="2018-07-29T04:41:51Z" finished-at="2018-07-29T04:41:51Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Support: Mercury Tours] but found [Under Construction: Mercury Tours]]]>
@@ -368,15 +368,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateClickOnSupportLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="899" started-at="2018-07-28T17:39:34Z" finished-at="2018-07-28T17:39:35Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="783" started-at="2018-07-29T04:41:51Z" finished-at="2018-07-29T04:41:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="5903" started-at="2018-07-28T17:39:35Z" finished-at="2018-07-28T17:39:41Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="5811" started-at="2018-07-29T04:41:52Z" finished-at="2018-07-29T04:41:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="validateClickOnSupportLinkTest()[pri:16, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateClickOnSupportLinkTest" duration-ms="742" started-at="2018-07-28T17:39:41Z" finished-at="2018-07-28T17:39:42Z">
+        <test-method status="FAIL" signature="validateClickOnSupportLinkTest()[pri:16, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateClickOnSupportLinkTest" duration-ms="731" started-at="2018-07-29T04:41:58Z" finished-at="2018-07-29T04:41:59Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Support: Mercury Tours] but found [Under Construction: Mercury Tours]]]>
@@ -421,15 +421,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateClickOnSupportLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="752" started-at="2018-07-28T17:39:42Z" finished-at="2018-07-28T17:39:43Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="813" started-at="2018-07-29T04:41:59Z" finished-at="2018-07-29T04:41:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="5766" started-at="2018-07-28T17:39:43Z" finished-at="2018-07-28T17:39:48Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="6689" started-at="2018-07-29T04:41:59Z" finished-at="2018-07-29T04:42:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="validateClickOnContactLinkTest()[pri:17, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateClickOnContactLinkTest" duration-ms="749" started-at="2018-07-28T17:39:48Z" finished-at="2018-07-28T17:39:49Z">
+        <test-method status="SKIP" signature="validateClickOnContactLinkTest()[pri:17, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateClickOnContactLinkTest" duration-ms="744" started-at="2018-07-29T04:42:06Z" finished-at="2018-07-29T04:42:07Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Contact: Mercury Tours] but found [Under Construction: Mercury Tours]]]>
@@ -474,15 +474,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateClickOnContactLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="803" started-at="2018-07-28T17:39:49Z" finished-at="2018-07-28T17:39:50Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="734" started-at="2018-07-29T04:42:07Z" finished-at="2018-07-29T04:42:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="7066" started-at="2018-07-28T17:39:50Z" finished-at="2018-07-28T17:39:57Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="5958" started-at="2018-07-29T04:42:08Z" finished-at="2018-07-29T04:42:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="validateClickOnContactLinkTest()[pri:17, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateClickOnContactLinkTest" duration-ms="1018" started-at="2018-07-28T17:39:57Z" finished-at="2018-07-28T17:39:58Z">
+        <test-method status="SKIP" signature="validateClickOnContactLinkTest()[pri:17, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateClickOnContactLinkTest" duration-ms="766" started-at="2018-07-29T04:42:14Z" finished-at="2018-07-29T04:42:14Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Contact: Mercury Tours] but found [Under Construction: Mercury Tours]]]>
@@ -527,15 +527,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateClickOnContactLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="832" started-at="2018-07-28T17:39:58Z" finished-at="2018-07-28T17:39:59Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="745" started-at="2018-07-29T04:42:14Z" finished-at="2018-07-29T04:42:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="6727" started-at="2018-07-28T17:39:59Z" finished-at="2018-07-28T17:40:06Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="5920" started-at="2018-07-29T04:42:15Z" finished-at="2018-07-29T04:42:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="validateClickOnContactLinkTest()[pri:17, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateClickOnContactLinkTest" duration-ms="727" started-at="2018-07-28T17:40:06Z" finished-at="2018-07-28T17:40:06Z">
+        <test-method status="SKIP" signature="validateClickOnContactLinkTest()[pri:17, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateClickOnContactLinkTest" duration-ms="760" started-at="2018-07-29T04:42:21Z" finished-at="2018-07-29T04:42:22Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Contact: Mercury Tours] but found [Under Construction: Mercury Tours]]]>
@@ -580,15 +580,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateClickOnContactLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="736" started-at="2018-07-28T17:40:06Z" finished-at="2018-07-28T17:40:07Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="749" started-at="2018-07-29T04:42:22Z" finished-at="2018-07-29T04:42:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="6367" started-at="2018-07-28T17:40:07Z" finished-at="2018-07-28T17:40:13Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="5792" started-at="2018-07-29T04:42:22Z" finished-at="2018-07-29T04:42:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="validateClickOnContactLinkTest()[pri:17, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateClickOnContactLinkTest" duration-ms="743" started-at="2018-07-28T17:40:13Z" finished-at="2018-07-28T17:40:14Z">
+        <test-method status="FAIL" signature="validateClickOnContactLinkTest()[pri:17, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateClickOnContactLinkTest" duration-ms="765" started-at="2018-07-29T04:42:28Z" finished-at="2018-07-29T04:42:29Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Contact: Mercury Tours] but found [Under Construction: Mercury Tours]]]>
@@ -633,15 +633,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateClickOnContactLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="790" started-at="2018-07-28T17:40:14Z" finished-at="2018-07-28T17:40:15Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="713" started-at="2018-07-29T04:42:29Z" finished-at="2018-07-29T04:42:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="6011" started-at="2018-07-28T17:40:16Z" finished-at="2018-07-28T17:40:22Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="6095" started-at="2018-07-29T04:42:30Z" finished-at="2018-07-29T04:42:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateInvalidLoginTest(java.lang.String, java.lang.String)[pri:18, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateInvalidLoginTest" duration-ms="1738" started-at="2018-07-28T17:40:22Z" data-provider="invalidtestdata" finished-at="2018-07-28T17:40:23Z">
+        <test-method status="PASS" signature="validateInvalidLoginTest(java.lang.String, java.lang.String)[pri:18, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateInvalidLoginTest" duration-ms="1683" started-at="2018-07-29T04:42:37Z" data-provider="invalidtestdata" finished-at="2018-07-29T04:42:38Z">
           <params>
             <param index="0">
               <value>
@@ -657,15 +657,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateInvalidLoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="759" started-at="2018-07-28T17:40:23Z" finished-at="2018-07-28T17:40:24Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="744" started-at="2018-07-29T04:42:38Z" finished-at="2018-07-29T04:42:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="6271" started-at="2018-07-28T17:40:24Z" finished-at="2018-07-28T17:40:30Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="6255" started-at="2018-07-29T04:42:39Z" finished-at="2018-07-29T04:42:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateInvalidLoginTest(java.lang.String, java.lang.String)[pri:18, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateInvalidLoginTest" duration-ms="1743" started-at="2018-07-28T17:40:30Z" data-provider="invalidtestdata" finished-at="2018-07-28T17:40:32Z">
+        <test-method status="PASS" signature="validateInvalidLoginTest(java.lang.String, java.lang.String)[pri:18, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateInvalidLoginTest" duration-ms="1744" started-at="2018-07-29T04:42:45Z" data-provider="invalidtestdata" finished-at="2018-07-29T04:42:47Z">
           <params>
             <param index="0">
               <value>
@@ -681,15 +681,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateInvalidLoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="708" started-at="2018-07-28T17:40:32Z" finished-at="2018-07-28T17:40:33Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="778" started-at="2018-07-29T04:42:47Z" finished-at="2018-07-29T04:42:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="6343" started-at="2018-07-28T17:40:33Z" finished-at="2018-07-28T17:40:39Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="6044" started-at="2018-07-29T04:42:48Z" finished-at="2018-07-29T04:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateInvalidLoginTest(java.lang.String, java.lang.String)[pri:18, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateInvalidLoginTest" duration-ms="1704" started-at="2018-07-28T17:40:39Z" data-provider="invalidtestdata" finished-at="2018-07-28T17:40:41Z">
+        <test-method status="PASS" signature="validateInvalidLoginTest(java.lang.String, java.lang.String)[pri:18, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateInvalidLoginTest" duration-ms="1729" started-at="2018-07-29T04:42:54Z" data-provider="invalidtestdata" finished-at="2018-07-29T04:42:55Z">
           <params>
             <param index="0">
               <value>
@@ -705,15 +705,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateInvalidLoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="736" started-at="2018-07-28T17:40:41Z" finished-at="2018-07-28T17:40:42Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="837" started-at="2018-07-29T04:42:55Z" finished-at="2018-07-29T04:42:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="6241" started-at="2018-07-28T17:40:42Z" finished-at="2018-07-28T17:40:48Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="setup" is-config="true" duration-ms="6221" started-at="2018-07-29T04:42:56Z" finished-at="2018-07-29T04:43:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateValidLoginTest(java.lang.String, java.lang.String)[pri:19, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateValidLoginTest" duration-ms="5765" started-at="2018-07-28T17:40:48Z" data-provider="validtestdata" finished-at="2018-07-28T17:40:54Z">
+        <test-method status="PASS" signature="validateValidLoginTest(java.lang.String, java.lang.String)[pri:19, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="validateValidLoginTest" duration-ms="4189" started-at="2018-07-29T04:43:03Z" data-provider="validtestdata" finished-at="2018-07-29T04:43:07Z">
           <params>
             <param index="0">
               <value>
@@ -729,35 +729,35 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateValidLoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="720" started-at="2018-07-28T17:40:54Z" finished-at="2018-07-28T17:40:54Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="764" started-at="2018-07-29T04:43:07Z" finished-at="2018-07-29T04:43:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.mercury.qa.testcases.LoginPageTest -->
       <class name="com.mercury.qa.testcases.FlightFinderTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.FlightFinderTest@5bc79255]" name="setup" is-config="true" duration-ms="11630" started-at="2018-07-28T17:40:54Z" finished-at="2018-07-28T17:41:06Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.FlightFinderTest@5bc79255]" name="setup" is-config="true" duration-ms="10484" started-at="2018-07-29T04:43:08Z" finished-at="2018-07-29T04:43:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateFlightFinderTest()[pri:20, instance:com.mercury.qa.testcases.FlightFinderTest@5bc79255]" name="validateFlightFinderTest" duration-ms="3887" started-at="2018-07-28T17:41:06Z" finished-at="2018-07-28T17:41:10Z">
+        <test-method status="PASS" signature="validateFlightFinderTest()[pri:20, instance:com.mercury.qa.testcases.FlightFinderTest@5bc79255]" name="validateFlightFinderTest" duration-ms="4118" started-at="2018-07-29T04:43:18Z" finished-at="2018-07-29T04:43:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateFlightFinderTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.FlightFinderTest@5bc79255]" name="tearDown" is-config="true" duration-ms="723" started-at="2018-07-28T17:41:10Z" finished-at="2018-07-28T17:41:11Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.FlightFinderTest@5bc79255]" name="tearDown" is-config="true" duration-ms="724" started-at="2018-07-29T04:43:22Z" finished-at="2018-07-29T04:43:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.mercury.qa.testcases.FlightFinderTest -->
       <class name="com.mercury.qa.testcases.SelectFlightTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.SelectFlightTest@47ef968d]" name="setup" is-config="true" duration-ms="14279" started-at="2018-07-28T17:41:11Z" finished-at="2018-07-28T17:41:25Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testcases.SelectFlightTest@47ef968d]" name="setup" is-config="true" duration-ms="14291" started-at="2018-07-29T04:43:23Z" finished-at="2018-07-29T04:43:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateDepartReturnFlightSelection()[pri:21, instance:com.mercury.qa.testcases.SelectFlightTest@47ef968d]" name="validateDepartReturnFlightSelection" duration-ms="1675" started-at="2018-07-28T17:41:25Z" finished-at="2018-07-28T17:41:27Z">
+        <test-method status="PASS" signature="validateDepartReturnFlightSelection()[pri:21, instance:com.mercury.qa.testcases.SelectFlightTest@47ef968d]" name="validateDepartReturnFlightSelection" duration-ms="1576" started-at="2018-07-29T04:43:37Z" finished-at="2018-07-29T04:43:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateDepartReturnFlightSelection -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.mercury.qa.testcases.SelectFlightTest@47ef968d]" name="teardown" is-config="true" duration-ms="768" started-at="2018-07-28T17:41:27Z" finished-at="2018-07-28T17:41:27Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.mercury.qa.testcases.SelectFlightTest@47ef968d]" name="teardown" is-config="true" duration-ms="1022" started-at="2018-07-29T04:43:39Z" finished-at="2018-07-29T04:43:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
