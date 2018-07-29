@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="12.4" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="320.495" tests="31" errors="0" skipped="6" failures="2">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\arunm\AppData\Local\Temp\surefire1858867441069629575\surefirebooter5900856571059003074.jar C:\Users\arunm\AppData\Local\Temp\surefire1858867441069629575 2018-07-29T11-23-08_701-jvmRun1 surefire6057185524350349785tmp surefire_02545876640801506126tmp"/>
+    <property name="sun.java.command" value="C:\Users\arunm\AppData\Local\Temp\surefire3254505556164626528\surefirebooter6570476897391996407.jar C:\Users\arunm\AppData\Local\Temp\surefire3254505556164626528 2018-07-29T11-47-43_000-jvmRun1 surefire2776693138368822839tmp surefire_05809020769530326589tmp"/>
     <property name="surefire.test.class.path" value="G:\Mercury tours workspace\MercuryTours\target\test-classes;G:\Mercury tours workspace\MercuryTours\target\classes;C:\Users\arunm\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\arunm\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\arunm\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\arunm\.m2\repository\org\seleniumhq\selenium\selenium-java\3.13.0\selenium-java-3.13.0.jar;C:\Users\arunm\.m2\repository\org\seleniumhq\selenium\selenium-api\3.13.0\selenium-api-3.13.0.jar;C:\Users\arunm\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.13.0\selenium-chrome-driver-3.13.0.jar;C:\Users\arunm\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.13.0\selenium-edge-driver-3.13.0.jar;C:\Users\arunm\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.13.0\selenium-firefox-driver-3.13.0.jar;C:\Users\arunm\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.13.0\selenium-ie-driver-3.13.0.jar;C:\Users\arunm\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.13.0\selenium-opera-driver-3.13.0.jar;C:\Users\arunm\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.13.0\selenium-remote-driver-3.13.0.jar;C:\Users\arunm\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.13.0\selenium-safari-driver-3.13.0.jar;C:\Users\arunm\.m2\repository\org\seleniumhq\selenium\selenium-support\3.13.0\selenium-support-3.13.0.jar;C:\Users\arunm\.m2\repository\net\bytebuddy\byte-buddy\1.8.3\byte-buddy-1.8.3.jar;C:\Users\arunm\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\arunm\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\arunm\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\arunm\.m2\repository\com\google\code\gson\gson\2.8.4\gson-2.8.4.jar;C:\Users\arunm\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\arunm\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\arunm\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\arunm\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\arunm\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\arunm\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\arunm\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\arunm\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\arunm\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\arunm\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\arunm\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\arunm\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\arunm\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\arunm\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\arunm\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\arunm\.m2\repository\org\apache\poi\poi-scratchpad\3.17\poi-scratchpad-3.17.jar;C:\Users\arunm\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\arunm\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\arunm\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\arunm\.m2\repository\org\apache\poi\ooxml-schemas\1.3\ooxml-schemas-1.3.jar;C:\Users\arunm\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\Users\arunm\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\arunm\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\arunm\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar;C:\Users\arunm\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\arunm\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\arunm\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\arunm\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\arunm\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\arunm\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\arunm\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\arunm\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.20.1\surefire-testng-utils-2.20.1.jar;C:\Users\arunm\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.20.1\surefire-grouper-2.20.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\arunm"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\arunm\AppData\Local\Temp\surefire1858867441069629575\surefirebooter5900856571059003074.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\arunm\AppData\Local\Temp\surefire3254505556164626528\surefirebooter6570476897391996407.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_144\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -60,5 +60,143 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="validateTitleTest" classname="com.mercury.qa.testcases.LoginPageTest" time="0.011"/>
+  <testcase name="validateTitleTest" classname="com.mercury.qa.testcases.LoginPageTest" time="0.021"/>
+  <testcase name="validateSignInLinkPresentTest" classname="com.mercury.qa.testcases.LoginPageTest" time="0.079"/>
+  <testcase name="validateRegisterLinkPresentTest" classname="com.mercury.qa.testcases.LoginPageTest" time="0.053"/>
+  <testcase name="validateSupportLinkPresentTest" classname="com.mercury.qa.testcases.LoginPageTest" time="0.073"/>
+  <testcase name="validateContactLinkPresentTest" classname="com.mercury.qa.testcases.LoginPageTest" time="0.062"/>
+  <testcase name="validateHomeLinkPresentTest" classname="com.mercury.qa.testcases.LoginPageTest" time="0.378"/>
+  <testcase name="validateFlightsLinkPresentTest" classname="com.mercury.qa.testcases.LoginPageTest" time="0.08"/>
+  <testcase name="validateHotelsLinkPresentTest" classname="com.mercury.qa.testcases.LoginPageTest" time="0.074"/>
+  <testcase name="validateCarRentalsLinkPresentTest" classname="com.mercury.qa.testcases.LoginPageTest" time="0.065"/>
+  <testcase name="validateCruisesLinkPresentTest" classname="com.mercury.qa.testcases.LoginPageTest" time="0.053"/>
+  <testcase name="validateDestinationsLinkPresentTest" classname="com.mercury.qa.testcases.LoginPageTest" time="0.047"/>
+  <testcase name="validateVacationsLinkPresentTest" classname="com.mercury.qa.testcases.LoginPageTest" time="0.052"/>
+  <testcase name="validateLogoPresentTest" classname="com.mercury.qa.testcases.LoginPageTest" time="0.062"/>
+  <testcase name="validateClickOnSignInLinkTest" classname="com.mercury.qa.testcases.LoginPageTest" time="0.791"/>
+  <testcase name="validateClickOnRegisterLinkTest" classname="com.mercury.qa.testcases.LoginPageTest" time="1.03"/>
+  <testcase name="validateClickOnSupportLinkTest" classname="com.mercury.qa.testcases.LoginPageTest" time="0">
+    <skipped message="expected [Support: Mercury Tours] but found [Under Construction: Mercury Tours]"/>
+    <system-out><![CDATA[07-29-2018 11:49:55 LoginPageTest.java INFO  [main] pages.LoginPage 223 - Browser closed successfully
+07-29-2018 11:49:55 TestBase.java INFO  [main] base.TestBase 45 - Launching chrome browser
+07-29-2018 11:49:58 TestBase.java INFO  [main] base.TestBase 48 - Chrome launched successfully
+07-29-2018 11:50:02 TestBase.java INFO  [main] base.TestBase 69 - URL launched successfully
+07-29-2018 11:50:02 LoginPageTest.java INFO  [main] pages.LoginPage 170 - ******Validate click on support link******
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab) on port 44632
+Only local connections are allowed.
+Jul 29, 2018 11:49:58 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="validateClickOnSupportLinkTest" classname="com.mercury.qa.testcases.LoginPageTest" time="0">
+    <skipped message="expected [Support: Mercury Tours] but found [Under Construction: Mercury Tours]"/>
+    <system-out><![CDATA[07-29-2018 11:50:04 LoginPageTest.java INFO  [main] pages.LoginPage 223 - Browser closed successfully
+07-29-2018 11:50:04 TestBase.java INFO  [main] base.TestBase 45 - Launching chrome browser
+07-29-2018 11:50:06 TestBase.java INFO  [main] base.TestBase 48 - Chrome launched successfully
+07-29-2018 11:50:10 TestBase.java INFO  [main] base.TestBase 69 - URL launched successfully
+07-29-2018 11:50:10 LoginPageTest.java INFO  [main] pages.LoginPage 170 - ******Validate click on support link******
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab) on port 39212
+Only local connections are allowed.
+Jul 29, 2018 11:50:06 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="validateClickOnSupportLinkTest" classname="com.mercury.qa.testcases.LoginPageTest" time="0">
+    <skipped message="expected [Support: Mercury Tours] but found [Under Construction: Mercury Tours]"/>
+    <system-out><![CDATA[07-29-2018 11:50:12 LoginPageTest.java INFO  [main] pages.LoginPage 223 - Browser closed successfully
+07-29-2018 11:50:12 TestBase.java INFO  [main] base.TestBase 45 - Launching chrome browser
+07-29-2018 11:50:14 TestBase.java INFO  [main] base.TestBase 48 - Chrome launched successfully
+07-29-2018 11:50:18 TestBase.java INFO  [main] base.TestBase 69 - URL launched successfully
+07-29-2018 11:50:18 LoginPageTest.java INFO  [main] pages.LoginPage 170 - ******Validate click on support link******
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab) on port 47579
+Only local connections are allowed.
+Jul 29, 2018 11:50:14 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="validateClickOnSupportLinkTest" classname="com.mercury.qa.testcases.LoginPageTest" time="0.936">
+    <failure message="expected [Support: Mercury Tours] but found [Under Construction: Mercury Tours]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Support: Mercury Tours] but found [Under Construction: Mercury Tours]
+	at com.mercury.qa.testcases.LoginPageTest.validateClickOnSupportLinkTest(LoginPageTest.java:172)
+</failure>
+    <system-out><![CDATA[07-29-2018 11:50:20 LoginPageTest.java INFO  [main] pages.LoginPage 223 - Browser closed successfully
+07-29-2018 11:50:20 TestBase.java INFO  [main] base.TestBase 45 - Launching chrome browser
+07-29-2018 11:50:23 TestBase.java INFO  [main] base.TestBase 48 - Chrome launched successfully
+07-29-2018 11:50:27 TestBase.java INFO  [main] base.TestBase 69 - URL launched successfully
+07-29-2018 11:50:27 LoginPageTest.java INFO  [main] pages.LoginPage 170 - ******Validate click on support link******
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab) on port 1350
+Only local connections are allowed.
+Jul 29, 2018 11:50:23 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="validateClickOnContactLinkTest" classname="com.mercury.qa.testcases.LoginPageTest" time="0">
+    <skipped message="expected [Contact: Mercury Tours] but found [Under Construction: Mercury Tours]"/>
+    <system-out><![CDATA[07-29-2018 11:50:29 LoginPageTest.java INFO  [main] pages.LoginPage 223 - Browser closed successfully
+07-29-2018 11:50:29 TestBase.java INFO  [main] base.TestBase 45 - Launching chrome browser
+07-29-2018 11:50:32 TestBase.java INFO  [main] base.TestBase 48 - Chrome launched successfully
+07-29-2018 11:50:37 TestBase.java INFO  [main] base.TestBase 69 - URL launched successfully
+07-29-2018 11:50:37 LoginPageTest.java INFO  [main] pages.LoginPage 179 - ******Validate click on contacts link******
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab) on port 16229
+Only local connections are allowed.
+Jul 29, 2018 11:50:32 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="validateClickOnContactLinkTest" classname="com.mercury.qa.testcases.LoginPageTest" time="0">
+    <skipped message="expected [Contact: Mercury Tours] but found [Under Construction: Mercury Tours]"/>
+    <system-out><![CDATA[07-29-2018 11:50:39 LoginPageTest.java INFO  [main] pages.LoginPage 223 - Browser closed successfully
+07-29-2018 11:50:39 TestBase.java INFO  [main] base.TestBase 45 - Launching chrome browser
+07-29-2018 11:50:42 TestBase.java INFO  [main] base.TestBase 48 - Chrome launched successfully
+07-29-2018 11:50:46 TestBase.java INFO  [main] base.TestBase 69 - URL launched successfully
+07-29-2018 11:50:46 LoginPageTest.java INFO  [main] pages.LoginPage 179 - ******Validate click on contacts link******
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab) on port 36162
+Only local connections are allowed.
+Jul 29, 2018 11:50:42 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="validateClickOnContactLinkTest" classname="com.mercury.qa.testcases.LoginPageTest" time="0">
+    <skipped message="expected [Contact: Mercury Tours] but found [Under Construction: Mercury Tours]"/>
+    <system-out><![CDATA[07-29-2018 11:50:48 LoginPageTest.java INFO  [main] pages.LoginPage 223 - Browser closed successfully
+07-29-2018 11:50:48 TestBase.java INFO  [main] base.TestBase 45 - Launching chrome browser
+07-29-2018 11:50:50 TestBase.java INFO  [main] base.TestBase 48 - Chrome launched successfully
+07-29-2018 11:50:54 TestBase.java INFO  [main] base.TestBase 69 - URL launched successfully
+07-29-2018 11:50:54 LoginPageTest.java INFO  [main] pages.LoginPage 179 - ******Validate click on contacts link******
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab) on port 48141
+Only local connections are allowed.
+Jul 29, 2018 11:50:50 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="validateClickOnContactLinkTest" classname="com.mercury.qa.testcases.LoginPageTest" time="1.104">
+    <failure message="expected [Contact: Mercury Tours] but found [Under Construction: Mercury Tours]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Contact: Mercury Tours] but found [Under Construction: Mercury Tours]
+	at com.mercury.qa.testcases.LoginPageTest.validateClickOnContactLinkTest(LoginPageTest.java:181)
+</failure>
+    <system-out><![CDATA[07-29-2018 11:50:56 LoginPageTest.java INFO  [main] pages.LoginPage 223 - Browser closed successfully
+07-29-2018 11:50:56 TestBase.java INFO  [main] base.TestBase 45 - Launching chrome browser
+07-29-2018 11:50:58 TestBase.java INFO  [main] base.TestBase 48 - Chrome launched successfully
+07-29-2018 11:51:02 TestBase.java INFO  [main] base.TestBase 69 - URL launched successfully
+07-29-2018 11:51:02 LoginPageTest.java INFO  [main] pages.LoginPage 179 - ******Validate click on contacts link******
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab) on port 8297
+Only local connections are allowed.
+Jul 29, 2018 11:50:58 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="validateInvalidLoginTest" classname="com.mercury.qa.testcases.LoginPageTest" time="1.881"/>
+  <testcase name="validateInvalidLoginTest" classname="com.mercury.qa.testcases.LoginPageTest" time="1.764"/>
+  <testcase name="validateInvalidLoginTest" classname="com.mercury.qa.testcases.LoginPageTest" time="2.061"/>
+  <testcase name="validateValidLoginTest" classname="com.mercury.qa.testcases.LoginPageTest" time="4.213"/>
+  <testcase name="validateFlightFinderTest" classname="com.mercury.qa.testcases.FlightFinderTest" time="3.968"/>
+  <testcase name="validateDepartReturnFlightSelection" classname="com.mercury.qa.testcases.SelectFlightTest" time="1.637"/>
+  <testcase name="validateSummaryTest" classname="com.mercury.qa.testcases.BookFlightTest" time="0.566"/>
+  <testcase name="validateFlightBookingTest" classname="com.mercury.qa.testcases.BookFlightTest" time="4.208"/>
 </testsuite>

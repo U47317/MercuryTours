@@ -1,4 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.4 s - in TestSuite
+Tests run: 31, Failures: 2, Errors: 0, Skipped: 6, Time elapsed: 320.495 s <<< FAILURE! - in TestSuite
+validateClickOnSupportLinkTest(com.mercury.qa.testcases.LoginPageTest)  Time elapsed: 0.936 s  <<< FAILURE!
+java.lang.AssertionError: expected [Support: Mercury Tours] but found [Under Construction: Mercury Tours]
+	at com.mercury.qa.testcases.LoginPageTest.validateClickOnSupportLinkTest(LoginPageTest.java:172)
+
+validateClickOnContactLinkTest(com.mercury.qa.testcases.LoginPageTest)  Time elapsed: 1.104 s  <<< FAILURE!
+java.lang.AssertionError: expected [Contact: Mercury Tours] but found [Under Construction: Mercury Tours]
+	at com.mercury.qa.testcases.LoginPageTest.validateClickOnContactLinkTest(LoginPageTest.java:181)
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Merury Tours Automation Test suite]">
+  <listeners>
+    <listener class-name="com.mercury.qa.util.TransformAnnotation"/>
+    <listener class-name="com.mercury.qa.extentreport.ExtentReportNG"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Mercury Tours testcases(failed)">
+    <classes>
+      <class name="com.mercury.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="validateClickOnSupportLinkTest"/>
+          <include name="validateClickOnContactLinkTest"/>
+        </methods>
+      </class> <!-- com.mercury.qa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Mercury Tours testcases(failed) -->
+</suite> <!-- Failed suite [Merury Tours Automation Test suite] -->
